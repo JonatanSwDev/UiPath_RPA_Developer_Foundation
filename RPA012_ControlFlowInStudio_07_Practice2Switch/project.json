@@ -1,0 +1,63 @@
+{
+  "name": "RPA012_ControlFlowInStudio_07_Practice2Switch",
+  "projectId": "8c803ff8-6e60-4feb-a366-240ea9d82bbe",
+  "description": "Problem Statement: Separate a collection of error codes using Change\r\n\r\n1. Consider a collection of error codes stored in an array of strings.\r\n\r\n2. Review the initial array, which should contain the following values: \"Ax001\", \"Ax002\", \"Ax003\", \"Ax004\", \"Ax005\", \"Bx001\", \"Bx002\", \"Bx003\", \"Cx001\", \"Cx002\", \"Cx003\", \"Cx004\".\r\n\r\n3. Separate them according to their error code type (\"Ax\", \"Bx\" or \"Cx\").\r\n\r\n4. Save them in 3 different arrays.",
+  "main": "Practice2Switch.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.22.2]",
+    "UiPath.Mail.Activities": "[1.21.1]",
+    "UiPath.System.Activities": "[23.10.2]",
+    "UiPath.Testing.Activities": "[23.10.0]",
+    "UiPath.UIAutomation.Activities": "[23.10.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Practice2Switch.xaml",
+      "uniqueId": "465e492a-989d-4450-a205-3917710b3d41",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
