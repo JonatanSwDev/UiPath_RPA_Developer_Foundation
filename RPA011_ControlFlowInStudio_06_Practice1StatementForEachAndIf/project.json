@@ -1,8 +1,8 @@
 {
-  "name": "RPA009_ControlFlowInStudio_04_PararellAsynchronous",
-  "projectId": "d83e8250-357b-489b-b97b-3e23f8b28ae0",
-  "description": "Simple project to learn about the pararell activity using a tax calculate problem.",
-  "main": "Main.xaml",
+  "name": "RPA011_ControlFlowInStudio_06_Practice1StatementForEachAndIf",
+  "projectId": "b645c3fa-64cd-4165-853d-6d3e065b9fb7",
+  "description": "Problem Statement: Find the smallest and largest numbers in a matrix\r\n\r\n1. Initialize an Array of Int32 with {7, 5, 2, 4, 3, 9} or your own integer values.\r\n\r\n2. Use the ForEach, Assign, and If statements to find the minimum and maximum numbers in the array. Print the results in the Output panel.",
+  "main": "MinAndMaxNumbers.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.22.2]",
     "UiPath.Mail.Activities": "[1.21.1]",
@@ -50,8 +50,8 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Main.xaml",
-      "uniqueId": "1a94c4a7-7ac5-4d5f-ba6f-a9191e5dafda",
+      "filePath": "MinAndMaxNumbers.xaml",
+      "uniqueId": "7d3fee5c-f610-4c1a-a402-ec483d083b63",
       "input": [],
       "output": []
     }

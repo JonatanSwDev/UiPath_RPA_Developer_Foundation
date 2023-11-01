@@ -14,13 +14,13 @@ using UiPath.UIAutomationNext.API.Models;
 using UiPath.UIAutomationNext.Enums;
 using UiPath.CodedWorkflows.DescriptorIntegration;
 
-namespace RPA009_ControlFlowInStudio_04_PararellAsynchronous
+namespace RPA011_ControlFlowInStudio_06_Practice1StatementForEachAndIf
 {
     public partial class CodedWorkflow : CodedWorkflowBase
     {
         public CodedWorkflow()
         {
-            _ = new System.Type[]{typeof(UiPath.UIAutomationNext.API.Contracts.IUiAutomationAppService), typeof(UiPath.Core.Activities.API.ISystemService), typeof(UiPath.Testing.API.ITestingService)};
+            _ = new System.Type[]{typeof(UiPath.Testing.API.ITestingService), typeof(UiPath.Core.Activities.API.ISystemService), typeof(UiPath.UIAutomationNext.API.Contracts.IUiAutomationAppService)};
         }
 
         protected UiPath.Core.Activities.API.ISystemService system { get => serviceContainer.Resolve<UiPath.Core.Activities.API.ISystemService>(); }
@@ -31,14 +31,14 @@ namespace RPA009_ControlFlowInStudio_04_PararellAsynchronous
     }
 }
 
-namespace RPA009_ControlFlowInStudio_04_PararellAsynchronous.ObjectRepository
+namespace RPA011_ControlFlowInStudio_06_Practice1StatementForEachAndIf.ObjectRepository
 {
     public static class Descriptors
     {
     }
 }
 
-namespace RPA009_ControlFlowInStudio_04_PararellAsynchronous._Implementation
+namespace RPA011_ControlFlowInStudio_06_Practice1StatementForEachAndIf._Implementation
 {
     internal class ScreenDescriptorDefinition : IScreenDescriptorDefinition
     {
