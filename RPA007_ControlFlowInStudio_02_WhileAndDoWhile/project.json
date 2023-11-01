@@ -1,7 +1,7 @@
 {
   "name": "RPA007_ControlFlowInStudio_02_WhileAndDoWhile",
   "projectId": "84401a3d-c212-4342-b0aa-85c6cb451348",
-  "description": "Project to training the while and do while bucles based on the \"Leap Year\" project",
+  "description": "Project to training the do while loops based on the \"Leap Year\" project.\r\nThis project contains Do While Activity on a process and how to do the same for a flowchart,",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.22.2]",
