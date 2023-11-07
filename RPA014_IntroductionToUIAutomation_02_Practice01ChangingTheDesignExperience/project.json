@@ -1,0 +1,59 @@
+{
+  "name": "RPA014_IntroductionToUIAutomation_02_Practice01ChangingTheDesignExperience",
+  "projectId": "1a9db8bf-ecd3-4f30-b219-5c49cd120ee7",
+  "description": "Create a new project and use the basic recorder to capture the following action:\r\n\r\n1. Open the Double UI application.\r\n\r\n2. Enter the text in the Cash In field.\r\n\r\n3. Click OK.\r\n\r\nExpected result:\r\nBe able to identify the design experience for the basic recorder.\r\nEnable the corresponding design experience in Studio.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.UIAutomation.Activities": "[23.10.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "95abf80a-29bb-490d-b2c5-5104bfa7e12e",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
