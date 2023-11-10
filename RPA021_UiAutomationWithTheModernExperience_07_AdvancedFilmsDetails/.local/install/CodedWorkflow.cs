@@ -14,13 +14,13 @@ using UiPath.UIAutomationNext.API.Models;
 using UiPath.UIAutomationNext.Enums;
 using UiPath.CodedWorkflows.DescriptorIntegration;
 
-namespace RPA001_FristProcessInStudio_01_AttachmentDiscountByEmail
+namespace RPA021_UiAutomationWithTheModernExperience_07_AdvancedFilmsDetails
 {
     public partial class CodedWorkflow : CodedWorkflowBase
     {
         public CodedWorkflow()
         {
-            _ = new System.Type[]{typeof(UiPath.Testing.API.ITestingService), typeof(UiPath.Core.Activities.API.ISystemService), typeof(UiPath.UIAutomationNext.API.Contracts.IUiAutomationAppService)};
+            _ = new System.Type[]{typeof(UiPath.Core.Activities.API.ISystemService), typeof(UiPath.Testing.API.ITestingService), typeof(UiPath.UIAutomationNext.API.Contracts.IUiAutomationAppService)};
         }
 
         protected UiPath.Core.Activities.API.ISystemService system { get => serviceContainer.Resolve<UiPath.Core.Activities.API.ISystemService>(); }
@@ -31,14 +31,14 @@ namespace RPA001_FristProcessInStudio_01_AttachmentDiscountByEmail
     }
 }
 
-namespace RPA001_FristProcessInStudio_01_AttachmentDiscountByEmail.ObjectRepository
+namespace RPA021_UiAutomationWithTheModernExperience_07_AdvancedFilmsDetails.ObjectRepository
 {
     public static class Descriptors
     {
     }
 }
 
-namespace RPA001_FristProcessInStudio_01_AttachmentDiscountByEmail._Implementation
+namespace RPA021_UiAutomationWithTheModernExperience_07_AdvancedFilmsDetails._Implementation
 {
     internal class ScreenDescriptorDefinition : IScreenDescriptorDefinition
     {
