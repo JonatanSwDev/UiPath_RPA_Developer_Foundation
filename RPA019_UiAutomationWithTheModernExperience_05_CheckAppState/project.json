@@ -1,0 +1,60 @@
+{
+  "name": "RPA019_UiAutomationWithTheModernExperience_05_CheckAppState",
+  "projectId": "ff83c5ac-d3f3-410f-b928-c73c8b19ec35",
+  "description": "This project checks if the DesktopUI App is working to Withdrawal section.\r\n\r\nIf the Withdrawal section is checked then it writes an amount to withdrawal.\r\n\r\nIf isn't checked then display a MessageBox, change the section clicking in Withdrawal and write the amount to withdrawal.\r\n\r\nAlso, has a process to check if the file 'Wirhdrawal Details.txt\" is open, displaying a Message Box in both cases.",
+  "main": "CheckDoubleUIApp.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[23.10.2]",
+    "UiPath.UIAutomation.Activities": "[23.10.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "CheckDoubleUIApp.xaml",
+      "uniqueId": "e6ab8615-5046-4ac0-a547-48e927729937",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
