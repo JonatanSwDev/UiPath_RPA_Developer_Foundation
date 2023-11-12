@@ -1,0 +1,63 @@
+{
+  "name": "RPA029_UiAutomationWithClassicExperience_06_Practice02ActiosOutputMethods",
+  "projectId": "b7af7e94-5ac4-4231-8800-306c888ecda2",
+  "description": "1. Go to the movie search page of the RPA Challenge website: https://rpachallenge.com (opens in a new tab).\r\n2. Enter the Movie Name in a Write In activity.\r\n3. Retrieve the first column of the result with:\r\n4. The description completes and displays the message using a Log Message activity.\r\n5. Movie image text and description visible on the screen. Display the message using a Message Box activity.\r\n6. Compare both outputs.\r\n\r\nOutput: A log message with a full description of the movie and a me",
+  "main": "ActionsOutputMethods.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.22.2]",
+    "UiPath.Mail.Activities": "[1.21.1]",
+    "UiPath.System.Activities": "[23.10.2]",
+    "UiPath.Testing.Activities": "[23.10.0]",
+    "UiPath.UIAutomation.Activities": "[23.10.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "ActionsOutputMethods.xaml",
+      "uniqueId": "9e4e1d32-7ab9-44ca-b8a2-7debd7a6987a",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
