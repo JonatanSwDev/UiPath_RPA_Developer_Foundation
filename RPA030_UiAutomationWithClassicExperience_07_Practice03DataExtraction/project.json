@@ -1,0 +1,63 @@
+{
+  "name": "RPA030_UiAutomationWithClassicExperience_07_Practice03DataExtraction",
+  "projectId": "fa5d9fc2-ba68-4240-99f8-318909fd8813",
+  "description": "1. Turn off the Modern Design Experience option.\r\n2. Use Windows credentials to log in to the ACME website.\r\n3. Log in to the ACME website: ACME System 1 - Log In (uipath.com).(opens in a new tab)(opens in a new tab)\r\n4. Click the Work Items tab.\r\n5. Use the data extraction wizard to extract the WIID, ​​description, type, and status with a maximum number of 20 results.\r\n6. Save the extracted data to an Excel file.\r\n\r\nOutput: An Excel file with the WIID, ​​description, type, and status of 20 rows",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Credentials.Activities": "[2.0.0]",
+    "UiPath.Excel.Activities": "[2.22.2]",
+    "UiPath.System.Activities": "[23.10.2]",
+    "UiPath.Testing.Activities": "[23.10.0]",
+    "UiPath.UIAutomation.Activities": "[23.10.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "cc792f32-0a65-4f4a-9671-117c8688cdfb",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
