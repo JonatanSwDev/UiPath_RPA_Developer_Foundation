@@ -1,0 +1,49 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "CorrectLogin.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "IsLoginLabelAppear&Sequence_2",
+        "Password&Sequence_3",
+        "Username&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "EmptyField.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "IsLoginLabelAppear&Sequence_2",
+        "Username&Sequence_3",
+        "Password&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WrongUserPassword.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "WrongPassword&Sequence_3",
+        "IsLoginLabelAppear&Sequence_2",
+        "Username&Sequence_3",
+        "Password&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
