@@ -1,0 +1,5 @@
+Dogs have four paws.
+
+Cows says mooo.
+
+Cats scratch.
