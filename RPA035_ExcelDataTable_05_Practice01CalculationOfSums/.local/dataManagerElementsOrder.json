@@ -1,0 +1,50 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "FirstMethod.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "IndexRow&Sequence_3",
+        "Sum&Sequence_3",
+        "ValueB&Sequence_3",
+        "ValueA&Sequence_3",
+        "SampleSumDT&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "SecondMethod.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "SampleSumDT&Sequence_1",
+        "ValueA&Sequence_3",
+        "ValueB&Sequence_3",
+        "IndexRow&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ThirdMethod.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "SampleSumDT&Sequence_1",
+        "Range&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
