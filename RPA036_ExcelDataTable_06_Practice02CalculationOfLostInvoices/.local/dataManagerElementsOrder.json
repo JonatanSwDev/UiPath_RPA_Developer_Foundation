@@ -1,0 +1,27 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DT_Total&Sequence_1",
+        "TotalLosses&Sequence_1",
+        "DT_Bankrupt&Sequence_1",
+        "DT_Results&Sequence_1",
+        "DT_Clients&Sequence_1",
+        "DT_Invoices&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
