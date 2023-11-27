@@ -21271,9 +21271,9 @@
     "restore": {
       "projectUniqueName": "RPA047_Selectors_05_Practice01ObtainDataSelectorsAdjusment",
       "projectName": "RPA047_Selectors_05_Practice01ObtainDataSelectorsAdjusment",
-      "projectPath": "D:\\UiPath\\RPA047_Selectors_05_Practice01ObtainDataSelectorsAdjusment\\.local",
+      "projectPath": "D:\\UiPath\\UiPath_RPA_Developer_Foundation\\RPA047_Selectors_05_Practice01ObtainDataSelectorsAdjusment\\.local",
       "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
-      "outputPath": "D:\\UiPath\\RPA047_Selectors_05_Practice01ObtainDataSelectorsAdjusment\\.local"
+      "outputPath": "D:\\UiPath\\UiPath_RPA_Developer_Foundation\\RPA047_Selectors_05_Practice01ObtainDataSelectorsAdjusment\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6IKNBwqemY4ZwgGRDdoLEnf8K4HwlD7wyjt+wlw7qrpHn+GPDKWALP2u6kAFZo2JyC8P3D+A2wYfAJJx8qHiFg==",
+  "dgSpecHash": "X57VhBo38oqEJn0qG4AQLYS5ttD/OJllp5a6W82e9J55zxwoYXdScJK27ueiRpv+LXlm+5xc1g9cy24GMcPOYQ==",
   "success": true,
-  "projectFilePath": "D:\\UiPath\\RPA047_Selectors_05_Practice01ObtainDataSelectorsAdjusment\\.local\\",
+  "projectFilePath": "D:\\UiPath\\UiPath_RPA_Developer_Foundation\\RPA047_Selectors_05_Practice01ObtainDataSelectorsAdjusment\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\jonat\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\jonat\\.nuget\\packages\\azure.core\\1.18.0\\azure.core.1.18.0.nupkg.sha512",

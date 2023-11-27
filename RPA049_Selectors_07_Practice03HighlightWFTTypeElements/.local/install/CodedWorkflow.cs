@@ -13,13 +13,13 @@ using UiPath.UIAutomationNext.API.Contracts;
 using UiPath.UIAutomationNext.API.Models;
 using UiPath.UIAutomationNext.Enums;
 
-namespace RPA047_Selectors_05_Practice01ObtainDataSelectorsAdjusment
+namespace RPA048_Selectors_06_Practice02DefineData
 {
     public partial class CodedWorkflow : CodedWorkflowBase
     {
         public CodedWorkflow()
         {
-            _ = new System.Type[]{typeof(UiPath.Core.Activities.API.ISystemService), typeof(UiPath.Testing.API.ITestingService), typeof(UiPath.UIAutomationNext.API.Contracts.IUiAutomationAppService)};
+            _ = new System.Type[]{typeof(UiPath.Testing.API.ITestingService), typeof(UiPath.Core.Activities.API.ISystemService), typeof(UiPath.UIAutomationNext.API.Contracts.IUiAutomationAppService)};
         }
 
         protected UiPath.Core.Activities.API.ISystemService system { get => serviceContainer.Resolve<UiPath.Core.Activities.API.ISystemService>() ; }

@@ -1,0 +1,51 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ListChoices&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ChooseType.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ListType&Sequence_3",
+        "ArrayType&Sequence_1",
+        "Type&Sequence_1",
+        "Choose&Sequence_1",
+        "isRemoved&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "ListChoices"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "HighlightWIID.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Choose&Sequence_2",
+        "Childrens&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "ListChoose"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
