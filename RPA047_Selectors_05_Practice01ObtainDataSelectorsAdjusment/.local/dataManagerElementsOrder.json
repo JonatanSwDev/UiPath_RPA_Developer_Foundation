@@ -1,0 +1,49 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "IsLoggedIn&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMELogIn.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ElementExists&Sequence_2",
+        "Username&Sequence_21",
+        "Password&Sequence_22",
+        "variable1&Sequence_13"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "IsLoggedIn"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WIIDExtract.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DTWIID&Sequence_1",
+        "WIID&Sequence_3",
+        "Index&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

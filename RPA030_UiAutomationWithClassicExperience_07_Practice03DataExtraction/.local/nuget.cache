@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6kdQWC8bmzOvPMLmPwFs9snvWghn1st2x7sKOvFt3NF4HN17z0oHf7rPW88bzDNzf1OHRmpG9D62m3bXyI1J0w==",
+  "dgSpecHash": "60KXjIWmLbipyC90VdNOSUcuTMvrtuxJSn1PplqXn0X1kjaxWe5QbBx8x02TELEx+AK22mP6wqxg2YUoTfBUUw==",
   "success": true,
-  "projectFilePath": "D:\\UiPath\\RPA030_UiAutomationWithClassicExperience_07_Practice03DataExtraction\\.local\\",
+  "projectFilePath": "D:\\UiPath\\UiPath_RPA_Developer_Foundation\\RPA030_UiAutomationWithClassicExperience_07_Practice03DataExtraction\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\jonat\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\jonat\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",
