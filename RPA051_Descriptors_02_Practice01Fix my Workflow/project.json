@@ -1,0 +1,60 @@
+{
+  "name": "RPA051_Descriptors_02_Practice01Fix my Workflow",
+  "projectId": "79769881-6fd8-4a6e-b356-5172f697072a",
+  "description": "You have received the following workflow from a colleague. The process is not running correctly and you must correct it.\r\n\r\nDownload the project and correct the workflow using the concepts and features you have studied in this course.\r\n\r\nThe workflow should do the following:\r\n\r\nSearch for the movie \"Ice Age\" on the IMDb website.\r\nGet IMDb score.\r\nShow it through a message box.\r\nExpected output: Message box showing the score for the movie Ice Age.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.UIAutomation.Activities": "[21.10.5]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "2a4d0401-6ba0-49db-a594-a372eedb570a",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
