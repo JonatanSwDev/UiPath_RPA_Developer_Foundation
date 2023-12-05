@@ -1,0 +1,62 @@
+{
+  "name": "RPA058_ProjectOrganization_06Practice03UsingLibreries",
+  "projectId": "480e6e5d-68be-4449-b4cd-e4f560750783",
+  "description": "Project to use the libraryes created on RPA057_ProjectOrganization_05Practice03BuildLibreries project.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "RPA057_ProjectOrganization_05Practice03BuildLibrary": "[1.0.4]",
+    "UiPath.Excel.Activities": "[2.22.2]",
+    "UiPath.System.Activities": "[23.10.2]",
+    "UiPath.UIAutomation.Activities": "[23.10.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "8934784a-60a1-4f6d-8395-1d7d2775d52a",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
