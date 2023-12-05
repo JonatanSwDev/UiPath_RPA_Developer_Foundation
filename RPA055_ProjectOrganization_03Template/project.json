@@ -1,10 +1,10 @@
 {
-  "name": "RPA027_UiAutomationWithClassicExperience_04_UISynchronize",
-  "projectId": "d5536a7c-a29e-4290-a5e9-15cfb10a35b8",
-  "description": "Process to learn about UI Synchronize.",
-  "main": "CorrectLogin.xaml",
+  "name": "RPA055_ProjectOrganization_03Template",
+  "projectId": "557a2355-3891-4d6d-a6bc-10d43c4c8f66",
+  "description": "A project to learn about templates",
+  "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Credentials.Activities": "[2.0.0]",
+    "UiPath.GSuite.Activities": "[2.4.3]",
     "UiPath.System.Activities": "[23.10.2]",
     "UiPath.UIAutomation.Activities": "[23.10.3]"
   },
@@ -14,6 +14,7 @@
   "studioVersion": "23.10.0.0",
   "projectVersion": "1.0.1",
   "runtimeOptions": {
+    "exceptionHandlerWorkflow": "GlobalHandler.xaml",
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
     "isPausable": true,
@@ -42,20 +43,23 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": false,
+    "modernBehavior": true,
     "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "CorrectLogin.xaml",
-      "uniqueId": "6898216b-6516-49b6-b2d1-525642e3bb50",
+      "filePath": "Main.xaml",
+      "uniqueId": "4cb0e3ff-799d-44e5-8cad-646c1daf4e49",
       "input": [],
       "output": []
     }
   ],
-  "isTemplate": false,
-  "templateProjectData": {},
+  "isTemplate": true,
+  "templateProjectData": {
+    "defaultProjectDescription": "Basic project template",
+    "defaultProjectName": "RPA055_ProjectOrganization_03Template"
+  },
   "publishData": {},
   "targetFramework": "Windows"
 }

@@ -13,8 +13,8 @@
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
         "IsLoginLabelAppear&Sequence_2",
-        "Password&Sequence_3",
-        "Username&Sequence_3"
+        "Username&Sequence_3",
+        "Password&Sequence_3"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
