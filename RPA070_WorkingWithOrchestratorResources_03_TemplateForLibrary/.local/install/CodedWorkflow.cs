@@ -14,13 +14,13 @@ using UiPath.UIAutomationNext.API.Models;
 using UiPath.UIAutomationNext.Enums;
 using UiPath.CodedWorkflows.DescriptorIntegration;
 
-namespace RPA068_WorkingWithOrchestratorResources_01_OrchestratorResourcesInStudio
+namespace RPA070_WorkingWithOrchestratorResources_03_TemplateForLibrary
 {
     public partial class CodedWorkflow : CodedWorkflowBase
     {
         public CodedWorkflow()
         {
-            _ = new System.Type[]{typeof(UiPath.UIAutomationNext.API.Contracts.IUiAutomationAppService), typeof(UiPath.Testing.API.ITestingService), typeof(UiPath.Core.Activities.API.ISystemService)};
+            _ = new System.Type[]{typeof(UiPath.Core.Activities.API.ISystemService), typeof(UiPath.UIAutomationNext.API.Contracts.IUiAutomationAppService), typeof(UiPath.Testing.API.ITestingService)};
         }
 
         protected UiPath.Core.Activities.API.ISystemService system { get => serviceContainer.Resolve<UiPath.Core.Activities.API.ISystemService>(); }
@@ -31,14 +31,14 @@ namespace RPA068_WorkingWithOrchestratorResources_01_OrchestratorResourcesInStud
     }
 }
 
-namespace RPA068_WorkingWithOrchestratorResources_01_OrchestratorResourcesInStudio.ObjectRepository
+namespace RPA070_WorkingWithOrchestratorResources_03_TemplateForLibrary.ObjectRepository
 {
     public static class Descriptors
     {
     }
 }
 
-namespace RPA068_WorkingWithOrchestratorResources_01_OrchestratorResourcesInStudio._Implementation
+namespace RPA070_WorkingWithOrchestratorResources_03_TemplateForLibrary._Implementation
 {
     internal class ScreenDescriptorDefinition : IScreenDescriptorDefinition
     {

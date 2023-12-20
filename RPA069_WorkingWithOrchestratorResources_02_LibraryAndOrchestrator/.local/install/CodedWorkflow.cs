@@ -14,7 +14,7 @@ using UiPath.UIAutomationNext.API.Models;
 using UiPath.UIAutomationNext.Enums;
 using UiPath.CodedWorkflows.DescriptorIntegration;
 
-namespace RPA068_WorkingWithOrchestratorResources_01_OrchestratorResourcesInStudio
+namespace RPA069_WorkingWithOrchestratorResources_02_LibraryAndOrchestrator
 {
     public partial class CodedWorkflow : CodedWorkflowBase
     {
@@ -31,14 +31,14 @@ namespace RPA068_WorkingWithOrchestratorResources_01_OrchestratorResourcesInStud
     }
 }
 
-namespace RPA068_WorkingWithOrchestratorResources_01_OrchestratorResourcesInStudio.ObjectRepository
+namespace RPA069_WorkingWithOrchestratorResources_02_LibraryAndOrchestrator.ObjectRepository
 {
     public static class Descriptors
     {
     }
 }
 
-namespace RPA068_WorkingWithOrchestratorResources_01_OrchestratorResourcesInStudio._Implementation
+namespace RPA069_WorkingWithOrchestratorResources_02_LibraryAndOrchestrator._Implementation
 {
     internal class ScreenDescriptorDefinition : IScreenDescriptorDefinition
     {
