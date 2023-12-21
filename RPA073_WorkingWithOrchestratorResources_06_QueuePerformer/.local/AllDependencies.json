@@ -18071,9 +18071,9 @@
     "restore": {
       "projectUniqueName": "RPA073_WorkingWithOrchestratorResources_06_QueuePerformer",
       "projectName": "RPA073_WorkingWithOrchestratorResources_06_QueuePerformer",
-      "projectPath": "D:\\UiPath\\RPA073_WorkingWithOrchestratorResources_06_QueuePerformer\\.local",
+      "projectPath": "D:\\UiPath\\UiPath_RPA_Developer_Foundation\\RPA073_WorkingWithOrchestratorResources_06_QueuePerformer\\.local",
       "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
-      "outputPath": "D:\\UiPath\\RPA073_WorkingWithOrchestratorResources_06_QueuePerformer\\.local"
+      "outputPath": "D:\\UiPath\\UiPath_RPA_Developer_Foundation\\RPA073_WorkingWithOrchestratorResources_06_QueuePerformer\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {

@@ -99,7 +99,7 @@
       <AssemblyReference>System.Data.SqlClient</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Work with Orchestrator resources in Studio&#xD;&#xA;&#xD;&#xA;Deep integration between Orchestrator and Studio, through the interactive login feature, allows RPA developers to work directly with folder entities such as queues, assets, and processes. Watch the demo below to see how the dedicated panel can be used in Studio for faster development.&#xD;&#xA;&#xD;&#xA;Additional for practice: Get URL from Orchestrator Resource." DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="632,2040" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Work with Orchestrator resources in Studio&#xA;&#xA;Deep integration between Orchestrator and Studio, through the interactive login feature, allows RPA developers to work directly with folder entities such as queues, assets, and processes. Watch the demo below to see how the dedicated panel can be used in Studio for faster development.&#xA;&#xA;Additional for practice: Get URL from Orchestrator Resource." DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="632,2040" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="Username" />
       <Variable x:TypeArguments="ss:SecureString" Name="Password" />

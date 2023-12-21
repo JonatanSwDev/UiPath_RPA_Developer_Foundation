@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yaX4zaefHCsU++I5DivxAe2VLusOJch3xWrT6DZhA525yGfrV8HwUjTgncBYArAp+VVyNI3jf8/tDt08ACu0Lg==",
+  "dgSpecHash": "qvBPu78cnemcMl9K3oC6SeQHIzMU4iWo+LOZxvIoZ3Bq2AIG6YLmWbMLhngHyFB+ATQRYw5+jDPWbn+bZkghiA==",
   "success": true,
-  "projectFilePath": "D:\\UiPath\\RPA023_UiAutomationWithTheModernExperience_09_Practice2AdvancedUIAutomation\\.local\\",
+  "projectFilePath": "D:\\UiPath\\UiPath_RPA_Developer_Foundation\\RPA023_UiAutomationWithTheModernExperience_09_Practice2AdvancedUIAutomation\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\jonat\\.nuget\\packages\\csvhelper\\16.0.0\\csvhelper.16.0.0.nupkg.sha512",
     "C:\\Users\\jonat\\.nuget\\packages\\markdig.signed\\0.21.1\\markdig.signed.0.21.1.nupkg.sha512",

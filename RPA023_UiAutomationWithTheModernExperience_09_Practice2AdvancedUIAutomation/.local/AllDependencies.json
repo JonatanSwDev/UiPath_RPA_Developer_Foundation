@@ -17559,9 +17559,9 @@
     "restore": {
       "projectUniqueName": "RPA023_UiAutomationWithTheModernExperience_09_Practice2AdvancedUIAutomation",
       "projectName": "RPA023_UiAutomationWithTheModernExperience_09_Practice2AdvancedUIAutomation",
-      "projectPath": "D:\\UiPath\\RPA023_UiAutomationWithTheModernExperience_09_Practice2AdvancedUIAutomation\\.local",
+      "projectPath": "D:\\UiPath\\UiPath_RPA_Developer_Foundation\\RPA023_UiAutomationWithTheModernExperience_09_Practice2AdvancedUIAutomation\\.local",
       "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
-      "outputPath": "D:\\UiPath\\RPA023_UiAutomationWithTheModernExperience_09_Practice2AdvancedUIAutomation\\.local"
+      "outputPath": "D:\\UiPath\\UiPath_RPA_Developer_Foundation\\RPA023_UiAutomationWithTheModernExperience_09_Practice2AdvancedUIAutomation\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZcY+g4Ie+arAp9KkINCcKuyNubFVMRAel2jSM9q4D57o+w1Dr6yqVoFR4Q5r3qErbWMhD2WrViBwYmq97ybHIw==",
+  "dgSpecHash": "mekMmv/+N0AEBWyAfETXdx8Gj1IC3jbrAGhef3KVVKUZw1ht5IGya1QWKmsjEz2imPxMcO5MojzdBDsgwOZARA==",
   "success": true,
-  "projectFilePath": "D:\\UiPath\\RPA073_WorkingWithOrchestratorResources_06_QueuePerformer\\.local\\",
+  "projectFilePath": "D:\\UiPath\\UiPath_RPA_Developer_Foundation\\RPA073_WorkingWithOrchestratorResources_06_QueuePerformer\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\jonat\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\jonat\\.nuget\\packages\\csvhelper\\16.0.0\\csvhelper.16.0.0.nupkg.sha512",
