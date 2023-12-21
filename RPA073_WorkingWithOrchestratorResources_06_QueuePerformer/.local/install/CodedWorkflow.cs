@@ -14,13 +14,13 @@ using UiPath.UIAutomationNext.API.Models;
 using UiPath.UIAutomationNext.Enums;
 using UiPath.CodedWorkflows.DescriptorIntegration;
 
-namespace RPA068_WorkingWithOrchestratorResources_01_OrchestratorResourcesInStudio
+namespace RPA073_WorkingWithOrchestratorResources_06_QueuePerformer
 {
     public partial class CodedWorkflow : CodedWorkflowBase
     {
         public CodedWorkflow()
         {
-            _ = new System.Type[]{typeof(UiPath.UIAutomationNext.API.Contracts.IUiAutomationAppService), typeof(UiPath.Core.Activities.API.ISystemService), typeof(UiPath.Testing.API.ITestingService)};
+            _ = new System.Type[]{typeof(UiPath.Core.Activities.API.ISystemService), typeof(UiPath.Testing.API.ITestingService), typeof(UiPath.UIAutomationNext.API.Contracts.IUiAutomationAppService)};
         }
 
         protected UiPath.Core.Activities.API.ISystemService system { get => serviceContainer.Resolve<UiPath.Core.Activities.API.ISystemService>(); }
@@ -31,14 +31,14 @@ namespace RPA068_WorkingWithOrchestratorResources_01_OrchestratorResourcesInStud
     }
 }
 
-namespace RPA068_WorkingWithOrchestratorResources_01_OrchestratorResourcesInStudio.ObjectRepository
+namespace RPA073_WorkingWithOrchestratorResources_06_QueuePerformer.ObjectRepository
 {
     public static class Descriptors
     {
     }
 }
 
-namespace RPA068_WorkingWithOrchestratorResources_01_OrchestratorResourcesInStudio._Implementation
+namespace RPA073_WorkingWithOrchestratorResources_06_QueuePerformer._Implementation
 {
     internal class ScreenDescriptorDefinition : IScreenDescriptorDefinition
     {
