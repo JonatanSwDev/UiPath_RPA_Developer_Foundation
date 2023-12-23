@@ -1,0 +1,38 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "EmailsList&Sequence_1",
+        "StartTimestamp&Sequence_1",
+        "Password&Sequence_1",
+        "Username&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "EmailsBefore.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Username&Sequence_2",
+        "Password&Sequence_2",
+        "StartTimestamp&Sequence_2",
+        "EmailsList&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
