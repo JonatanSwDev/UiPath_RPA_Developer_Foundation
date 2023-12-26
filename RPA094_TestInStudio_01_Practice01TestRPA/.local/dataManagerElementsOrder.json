@@ -1,0 +1,38 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "HashGenerator.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "OUT_HashCode",
+        "IN_Method",
+        "IN_Text"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "TC_HashGenerator.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "HashResult&Sequence_1",
+        "Text&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "IN_HashMethod",
+        "IN_Result"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
